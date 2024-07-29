@@ -4412,7 +4412,9 @@ label {
 }
 
 .newsletter-area-two .newsletter-inner {
-  background: var(--tg-secondary-background);
+  /* background: var(--tg-secondary-background); */
+  background: -webkit-linear-gradient(to top, #0c0f35, #202788);
+  background: linear-gradient(to top, #0c0f35, #202788);
 }
 
 /*=============================

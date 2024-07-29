@@ -17,6 +17,41 @@
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <style>
+        .over-section-content {
+            display: flex;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .over-icon{
+            padding-right: 10px;
+        }
+
+        .over-content h6{
+            font-size: 1.5em;
+        }
+       
+
+        .over-img {
+            height: 600px;
+        }
+
+        .over-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
 </head>
 
 <body>
@@ -109,159 +144,80 @@
         </div>
     </header>
 
-    <!-- Combaine Section -->
-    <Section class="Combaine Section">
+    <!-- overview Section -->
+    <section id="overview-section" class="section-pt-80">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-10 col-md-3">
-                    <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <div class="contact-info-item">
-                            <span class="sub-title">
-                                <!-- <img src="assets/img/contact/email.png" alt="" height="30px"> -->
-                                Email
-                            </span>
-                            <h2 class="title">info@gmail.com</h2>
-                            <!-- <ul class="list-wrap">
-                                <li><a href="mailto:relandgroup@mail.com">relandgroup@mail.com</a></li>
-                                <li><a href="tel:0123456789">+7 495 127 5451</a></li>
-                            </ul> -->
-                        </div>
-                        <div class="contact-info-item">
-                            <span class="sub-title">Address</span>
-                            <h2 class="title">Mumbai</h2>
-                            <!-- <ul class="list-wrap">
-                                <li><a href="mailto:relandgroup@mail.com">relandgroup@mail.com</a></li>
-                                <li><a href="tel:0123456789">+7 495 127 5451</a></li>
-                            </ul> -->
-                        </div>
-                        <div class="contact-info-item">
-                            <span class="sub-title">Number</span>
-                            <h2 class="title">+91 1234567890</h2>
-                            <!-- <ul class="list-wrap">
-                                <li><a href="mailto:relandgroup@mail.com">relandgroup@mail.com</a></li>
-                                <li><a href="tel:0123456789">+7 495 127 5451</a></li>
-                            </ul> -->
-                        </div>
+            <div class="row row-cols-12 row-cols-md-6 justify-content-center">
+                <div class="col-md-6">
+                    <div class="over-img">
+                        <img src="assets/img/over/Images-1.png" alt="" srcset="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-xl-6 col-md-8">
-                    <div class="section-title text-center mb-55">
-                        <span class="sub-title">leave a message</span>
-                        <h2 class="title">Let’s make something new together</h2>
+                <div class="col-md-6">
+                    <div class="section-title text-center mb-35">
+                        <span class="sub-title">Who we are</span>
+                        <h2 class="title">30 years of leadership in real estate sector</h2>
                     </div>
-                    <div class="contact-form-wrap">
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Your name" required="required">
+                    <div class="about-content text-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis adipisci, id ducimus
+                            incidunt dolores doloremque. Id veniam similique earum perferendis quam et, officia,
+                            cumque, sequi alias atque suscipit dolorum quo
+                        </p>
+                        <div class="row row-cols-12 row-cols-md-6  justify-content-center">
+                            <div class="col-md-6">
+                                <div class="over-section-content">
+                                    <div class="over-icon">
+                                        <img src="assets/img/over/house-check.svg" alt="">
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Phone number" required="required">
+                                    <div class="over-content">
+                                        <h6>Commercial Service</h6>
+                                        <p class="m-0">Proper lighting is essential in interior design.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-grp">
-                                <textarea name="message" placeholder="Write message" required="required"></textarea>
+                            <div class="col-md-6">
+                                <div class="over-section-content">
+                                    <div class="over-icon">
+                                        <img src="assets/img/over/house-check.svg" alt="">
+                                    </div>
+                                    <div class="over-content">
+                                        <h6>Residential Services</h6>
+                                        <p class="m-0">This includes building homes, housing units.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="checkbox">
-                                <label for="checkbox">I accept <span>Terms & Conditions</span> for processing
-                                    personal data</label>
+                            <div class="col-md-6">
+                                <div class="over-section-content">
+                                    <div class="over-icon">
+                                        <img src="assets/img/over/house-check.svg" alt="">
+                                    </div>
+                                    <div class="over-content">
+                                        <h6>Trusted Company
+                                        </h6>
+                                        <p class="m-0">Contractors are responsible for overseeing the  process.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-submit">
-                                <input type="submit" value="submit">
+                            <div class="col-md-6">
+                                <div class="over-section-content">
+                                    <div class="over-icon">
+                                        <img src="assets/img/over/house-check.svg" alt="">
+                                    </div>
+                                    <div class="over-content">
+                                        <h6>Dedicated Team</h6>
+                                        <p class="m-0">Civil engineers are involved in every aspect.</p>
+                                    </div>
+                                </div>
                             </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </Section>
-    <!-- Combaine Section end -->
 
-    <!-- contact-info -->
-    <section class="contact-info pb-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="contact-info-item">
-                        <span class="sub-title">Main office</span>
-                        <h2 class="title">1940 El Cajon Blvd, San Diego, CA 92104, United States</h2>
-                        <ul class="list-wrap">
-                            <li><a href="mailto:relandgroup@mail.com">relandgroup@mail.com</a></li>
-                            <li><a href="tel:0123456789">+7 495 127 5451</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="contact-info-item">
-                        <span class="sub-title">Second office</span>
-                        <h2 class="title">1401 S Grand Ave, Los Angeles, CA 90015, United States</h2>
-                        <ul class="list-wrap">
-                            <li><a href="mailto:relandgroup@mail.com">relandgroup@mail.com</a></li>
-                            <li><a href="tel:0123456789">+7 495 127 5451</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10">
-                    <div class="contact-info-item">
-                        <span class="sub-title">Third office</span>
-                        <h2 class="title">2601 Holme Ave, Philadelphia, PA 19152, United States</h2>
-                        <ul class="list-wrap">
-                            <li><a href="mailto:relandgroup@mail.com">relandgroup@mail.com</a></li>
-                            <li><a href="tel:0123456789">+91 12345677890</a></li>
-                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- contact-info-end -->
-
-    <!-- contact-form-area -->
-    <section class="contact-form-area pt-140 pb-140">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-8">
-                    <div class="section-title text-center mb-55">
-                        <span class="sub-title">leave a message</span>
-                        <h2 class="title">Let’s make something new together</h2>
-                    </div>
-                    <div class="contact-form-wrap">
-                        <form action="#">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Your name" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-grp">
-                                        <input type="text" placeholder="Phone number" required="required">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-grp">
-                                <textarea name="message" placeholder="Write message" required="required"></textarea>
-                            </div>
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="checkbox">
-                                <label for="checkbox">I accept <span>Terms & Conditions</span> for processing
-                                    personal data</label>
-                            </div>
-                            <div class="form-submit">
-                                <input type="submit" value="submit">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contact-form-area-end -->
+    <!-- overview Section end-->
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>

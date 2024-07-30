@@ -141,7 +141,7 @@
   <!-- main-area -->
   <main>
     <!-- slider-area -->
-    <section class="slider-area">
+    <!-- <section class="slider-area">
       <div class="slider-active">
         <div class="single-slider slider-bg" data-background="assets/img/banner/image-2.jpg">
           <div class="slider-right-bg" data-animation="tgFadeInRight" data-delay=".8s"
@@ -210,8 +210,36 @@
           <span></span>
         </a>
       </div>
-    </section>
+    </section> -->
     <!-- slider-area-end -->
+
+    <!-- Slider area -->
+    <section id="slider_section">
+      <div id="main_slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#main_slider" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#main_slider" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              <!-- <button type="button" data-bs-target="#main_slider" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button> -->
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="assets/img/banner/image-2.jpg" class="d-block w-100 img-fluid banner1" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="assets/img/banner/image-1.jpg" class="d-block w-100 img-fluid banner2" alt="...">
+              </div>
+              <!-- <div class="carousel-item">
+                  <img src="images/banner/feature.jpeg" class="d-block w-100 img-fluid" alt="...">
+              </div> -->
+          </div>
+
+      </div>
+
+  </section>
+    <!-- Slider area end -->
 
     <!-- about-area -->
     <!-- <section id="about" class="about-area section-pt-135 section-pb-140">

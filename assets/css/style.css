@@ -804,9 +804,9 @@ label {
   background: var(--tg-primary-color);
 }
 
-.menu-area-two {
+/* .menu-area-two {
   padding: 27px 0px;
-}
+} */
 
 .menu-area-two.sticky-menu {
   padding: 18px 0px;
@@ -4617,7 +4617,7 @@ label {
 .footer-social .list-wrap {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   margin: 0 -4px;
 }
 

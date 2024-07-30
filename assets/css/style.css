@@ -809,6 +809,7 @@ label {
 
 .menu-area-two.sticky-menu {
   padding: 18px 0px;
+  display: none;
 }
 
 .burger-menu-visible .menu-area-two.transparent-header.sticky-menu {
